@@ -30,11 +30,27 @@
 } */
 
 /* background-image */
-#text{
+/* #text{
     height: 200px;
     width:200px;
     background-color:red;
-    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixlok.com%2Fimages%2Fmyntra-logo-png-image-free-download%2F&psig=AOvVaw28FiVMqDy5nslGV6MXo_2T&ust=1700755886518000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDdm8b_14IDFQAAAAAdAAAAABAE);
+    background-image:url(logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+} */
+
+/* visibility */
+#one{
+   
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    visibility: hidden;
+}
+#tow{
     
-    background-size: contain;
+    background-color: rgb(154, 195, 179);
+    height: 200px;
+    width: 200px;
 }
