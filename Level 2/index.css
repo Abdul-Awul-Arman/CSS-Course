@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background-color
+.first{
+    background-color: red;
+}
+
+.second{
+    background-color: royalblue;
+}
+
+.third{
+    background-color: green;
+} */
+
+/* rgb-theory and alpha color*/
+/* .first,.second,.third{
+    background-color: rgb(10,20, 30);
+    color: rgb(255,255,255,1);
+} */
+
+/* height and width */
+/* .first,.second,.third{
+    background-color:rgb(255,0,0);
+    width: 200px;
+    height:200px;
+} */
+
+/* background-image */
