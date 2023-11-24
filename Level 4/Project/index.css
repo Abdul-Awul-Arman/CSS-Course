@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+#this-is-div{
+    height:100px;
+    width:100px;
+    padding: 10px 10px 10px 10px;
+    background-color:red;
+    padding: 10px;
+    margin:10px;
+    box-sizing: border-box;
+}
+
+#this-is-div2{
+    height:100px;
+    width:100px;
+    padding: 10px 10px 10px 10px;
+    background-color:red;
+    padding: 10px;
+    margin:10px;
+}
+
+#button{
+    height: 100px;
+    width:100px;
+    padding:15px 15px;
+    margin:100px 100px;
+    border:10px dotted red;
+    border-radius: 100px;
+}

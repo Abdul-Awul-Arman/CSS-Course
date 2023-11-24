@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#outer{
+    font-size:25px;
+}
+#inner
+{
+    font-size:10px;
+}

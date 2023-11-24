@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* text decoration and decoration-style ,text decoration color*/
+/* #text{
+    background-color:rgb(219, 219, 228);
+    text-decoration: underline;
+    text-decoration-style:double;
+    text-decoration-color:red;
+} */
+
+/* text transfrom */
+/* #text1{
+    text-transform: capitalize;
+   
+}
+#text2{
+    text-transform: uppercase;
+   
+}
+#text3{
+    text-transform: lowercase;
+   
+}
+#text4{
+    text-transform: none;
+} */
+
+/*Line height*/
+/* #text1{
+   line-height: 26px;
+} */
+
