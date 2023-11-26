@@ -11,11 +11,11 @@ header{
 
 main{
     height:400px;
-    width:600px;
+    width:400px;
     background-color: antiquewhite;
     border: 5px solid black;
     display: flex;
-    flex-grow: 2;
+    flex-wrap:wrap;
 }
 
 /*flex Direction*/
@@ -72,11 +72,16 @@ main{
     flex-grow:2;
 } */
 
-
+.box{
+    height:100px;
+    width:100px;
+    margin: 5px;
+}
 #section1{
     background-color: aqua;
     border:3px solid black;
     order:4;
+    flex-basis: 200px;
 }
 
 #section2{
