@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+
+main{
+    height:400px;
+    width:600px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    display: flex;
+    flex-grow: 2;
+}
+
+/*flex Direction*/
+/* main{
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+} */
+
+/*flex justify content*/
+/* main{
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content:space-between;
+    justify-content:space-evenly ;
+} */
+
+/*flex-wrap*/
+/* main{
+    flex-wrap:wrap;
+    flex-wrap: wrap-reverse;
+} */
+
+/*flex align-item*/
+/* main{
+    align-items: start;
+    align-items: center;
+    align-items: end;
+} */
+
+/*flex align-content*/
+/* main{
+    width:300px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: start;
+    align-content: center;
+    align-items: end;
+} */
+
+/*flex-shrink*/
+/* #section3{
+    background-color: yellow;
+    border:3px solid black;
+    flex-shrink: 4;
+} */
+
+/* flex grow */
+/* #section3{
+    background-color: yellow;
+    border:3px solid black;
+    flex-grow:2;
+} */
+
+
+#section1{
+    background-color: aqua;
+    border:3px solid black;
+    order:4;
+}
+
+#section2{
+    background-color: purple;
+    border:3px solid black;
+    order:2;
+}
+
+#section3{
+    background-color: yellow;
+    border:3px solid black;
+    order:3;
+    /* align-self:center; */
+}
+
+/*align-self*/
+/* #section3{
+    background-color: yellow;
+    border:3px solid black;
+    align-self:center;
+} */
+#section4{
+    background-color: orange;
+    border:3px solid black;
+    order:1;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    margin: 5px;
+}
+
