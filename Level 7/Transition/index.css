@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    width:98vw;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*transition*/
+#button{
+    height:10%;
+    width: 30%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid #0D0D0D;
+    background-color:#57C6F2 ;
+    font-size: 150%;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out ;
+    transition-delay:0s ;
+
+    /* shotHand */
+    transition:all 0.1s ease-in-out 0s;
+
+}
+
+#button:hover{
+    height:15%;
+    width: 35%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid #000000;
+    background-color:#56BF70 ;
+    font-size: 160%;
+}
+
+#button:active{
+    background-color: #000000;
+    color: whitesmoke;
+    border: 3px solid rgb(154, 0, 0);
+}
