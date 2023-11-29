@@ -1,0 +1,42 @@
+body{
+    height: calc(100vh-100px);
+    width: calc(100vh-100px);
+    display: flex;
+}
+#Container{
+    background-color: blue;
+    height: 100px;
+    width:100px;
+    position: relative;
+    top: 250px;
+    left: 250px;
+    border:3px solid black;
+    transition:all 1s ease-in-out ;
+}
+
+/* by default rotate or any transform property value is rotate z */
+/* #Container:hover{
+    by default rotate or any transform property value is rotate z
+    transform: rotate(45deg);
+    transform: rotatex(45deg);
+    transform: rotatey(45deg);
+} */
+/* 
+#Container:hover{
+    transform:scale(1);
+    transform:scalex(2);
+    transform:scaley(2);
+    
+} */
+
+#Container:hover{
+   /* transform: translatex(-50px); */
+   /* transform: translatex(-50px); */
+   /* transform: translate(-50px,-50px); */
+
+}
+
+#Container:hover{
+    /* transform: skewy(40deg); */
+    /* transform: skewyx(40deg); */
+ }
