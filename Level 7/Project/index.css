@@ -1,0 +1,32 @@
+#progress-bar{
+    width: 90%;
+    height: 25px;
+    background-color:rosybrown;
+    position: relative;
+    top: 100px;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+#progress{
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    animation: progress 5s ease-in-out 1s 5 ;
+}
+
+@keyframes progress {
+   0%{
+    width:0%
+   }
+   90%{
+    width:90%
+   }
+   95%{
+    width:70%
+   }
+   100%{
+    width:100%
+   }
+
+}
