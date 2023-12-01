@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'assistant',sans-serif;
+}
+header{
+    background-color:antiquewhite;
+    justify-content: space-between;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo-container{
+    margin-left: 4%;
+}
+.myntra-logo{
+    width: 53px;
+    
+    
+}
+.action-bar{
+    margin-right: 4%;
+    
+}
+.nav-bar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 700;
+    color:#282c3f ;
+    letter-spacing: .3px;
+}
+
+.nav-bar{
+    min-width: 515px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a sup{
+    color: #ff3f6c;
+    font-size: 7px;
+}
+
